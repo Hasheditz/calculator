@@ -1,0 +1,132 @@
+body{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: 'Kdam Thmor Pro', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    background-color: lightblue;
+    font-weight: bold;
+    /* background-image: url("background.jpg"); */
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.calculator{
+    width: 330px;
+    height: 555px;
+    background-color: rgb(70, 68, 68);
+    margin: auto;
+    top: 10px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow:0 4px 8px rgba(0,0,0, 0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
+
+}
+
+.history{
+    text-align: right;
+    height: 20px;
+    margin: 0 15px;
+    font-size: 15px;
+    color: #919191;
+    font-weight: 30;
+}
+
+.output{
+    text-align :right;
+    height: 10px 20px;
+    font-size: 30px;
+}
+
+/* .keyboard{
+    height: 300px;
+} */
+
+.operator , .number , .empty{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 60px;
+    height: 60px;
+    margin: 9.5px;
+    float: left;
+    border-radius:20%;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow:2px 4px #e4e5e6;
+    position: relative;
+
+
+}
+
+.number , .operator {
+    cursor: pointer;
+}
+
+ .number:active{
+    font-size: 27px;
+    /* background-color: #a0b2ee; */
+    /* background-position-x: 100px; */
+}
+
+/* .operator:focus , .number:focus , .empty:focus{
+    outline: 0;
+} */
+
+.operator:nth-child(4){
+    font-size: 31px;
+    background-color: rgb(160, 178 , 238);
+    /* background-color:orange; */
+}
+.operator:nth-child(8){
+    font-size: 31px;
+    background-color: rgb(160, 178 , 238);
+}
+.operator:nth-child(16){
+    font-size: 31px;
+    background-color: rgb(160, 178 , 238);
+    /* background-color: green; */
+}
+.operator:nth-child(20){
+    font-size: 31px;
+    background-color: rgb(160, 178 , 238);
+}
+.operator:nth-child(12){
+    font-size: 37px;
+    background-color: rgb(160, 178 , 238);
+}
+
+/* #clear , #backspace{
+    background-color: lightslategray;
+} */
+
+.empty{
+    border:0;
+    background-color: rgb(70, 68, 68);
+    box-shadow: 0 0 ;
+}
+.result{
+    height: 105px;
+    background-color: rgb(204, 231, 240);
+    border-top: 30px  solid rgb(70, 68, 68);
+    border-bottom: 20px solid rgb(70, 68, 68);
+    border-left: 20px solid rgb(70, 68, 68);
+    border-right: 20px solid rgb(70, 68, 68);
+    padding: 2px;
+    border-radius: 16px 16px 0 0;
+
+}
+
+.operator:active{
+    font-size: 30px;
+}
+
+.operator:nth-child(3):active{
+    font-size: 27px;
+}
+.operator:nth-child(1):active{
+    font-size: 27px;
+}
+.operator:nth-child(2):active{
+    font-size: 27px;
+}
